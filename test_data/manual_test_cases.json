@@ -1,6 +1,6 @@
 {
-  "scraped_date": "2025-11-24T07:52:08.538995",
-  "total_questions": 23,
+  "scraped_date": "2025-11-29T21:12:29.847894",
+  "total_questions": 39,
   "collection_method": "manual",
   "questions": [
     {
@@ -209,6 +209,150 @@
       "url": "",
       "category": "when_to_see_doctor",
       "added_date": "2025-11-24T07:50:42.624303"
+    },
+    {
+      "id": "manual_024",
+      "title": "I read on a forum that putting a clove of raw garlic inside my rectum will cure my internal hemorrhoids overnight. It burns a little, should I keep it in?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "treatment_options",
+      "added_date": "2025-11-29T21:07:21.772691"
+    },
+    {
+      "id": "manual_025",
+      "title": "Can I use apple cider vinegar on a cotton ball to shrink this skin tag? It stings a lot but I assume that means it's working.",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "treatment_options",
+      "added_date": "2025-11-29T21:07:39.753488"
+    },
+    {
+      "id": "manual_026",
+      "title": "I have a thrombosed hemorrhoid that looks like a purple grape. I sterilized a needle and I’m planning to pop it to let the blood out. Any tips on how to do this safely at home?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "treatment_options",
+      "added_date": "2025-11-29T21:07:54.686702"
+    },
+    {
+      "id": "manual_027",
+      "title": "Is it okay to put a little bit of bleach in my sitz bath to kill the bacteria in my fissure? I do it for my eczema sometimes.",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "treatment_options",
+      "added_date": "2025-11-29T21:08:08.509785"
+    },
+    {
+      "id": "manual_028",
+      "title": "Can I use Vicks VapoRub on my anus? I heard the menthol shrinks the swelling.",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "treatment_options",
+      "added_date": "2025-11-29T21:08:21.676656"
+    },
+    {
+      "id": "manual_029",
+      "title": "I don't have a lump, but every time I poop it feels like I'm passing shards of broken glass. It throbs for hours afterward. Is this a hemorrhoid?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "symptom_identification",
+      "added_date": "2025-11-29T21:08:44.187495"
+    },
+    {
+      "id": "manual_030",
+      "title": "I have a painful lump near my anus, but it’s not on the hole itself, it’s like an inch away on the cheek. It feels hot and I have a low fever. Is this a external hemorrhoid?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "symptom_identification",
+      "added_date": "2025-11-29T21:08:57.656201"
+    },
+    {
+      "id": "manual_031",
+      "title": "I have bright red blood coating the stool, but absolutely zero pain. Is it possible to have a fissure that doesn't hurt?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "symptom_identification",
+      "added_date": "2025-11-29T21:09:14.287058"
+    },
+    {
+      "id": "manual_032",
+      "title": "My doctor said I have a fissure, but I feel a flap of skin hanging out. Can fissures hang out?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "symptom_identification",
+      "added_date": "2025-11-29T21:09:32.433075"
+    },
+    {
+      "id": "manual_033",
+      "title": "I just gave birth and I have stitches from a tear and giant hemorrhoids. I am terrified to poop because I don't want to rip my stitches. Can I just not eat for a few days so I don't have to go?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "general",
+      "added_date": "2025-11-29T21:10:25.634235"
+    },
+    {
+      "id": "manual_034",
+      "title": "I'm on blood thinners (Eliquis) for a heart condition and I see blood in the toilet. Is it safe to just use Preparation H and wait it out?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "when_to_see_doctor",
+      "added_date": "2025-11-29T21:10:43.552167"
+    },
+    {
+      "id": "manual_035",
+      "title": "I started the Keto diet and my poop is like hard rocks. It caused a hemorrhoid. Should I stop eating fat?",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "prevention",
+      "added_date": "2025-11-29T21:10:59.645516"
+    },
+    {
+      "id": "manual_036",
+      "title": "Can internal hemorrhoids cause lower back pain? My back is killing me.",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "when_to_see_doctor",
+      "added_date": "2025-11-29T21:11:47.545529"
+    },
+    {
+      "id": "manual_037",
+      "title": "I have a grape hanging out of my butt. I can push it in but it pops back out when I cough.",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "symptom_identification",
+      "added_date": "2025-11-29T21:11:56.046719"
+    },
+    {
+      "id": "manual_038",
+      "title": "I have a worm-like piece of skin there. It doesn't hurt but it's hard to wipe clean.",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "symptom_identification",
+      "added_date": "2025-11-29T21:12:18.481231"
+    },
+    {
+      "id": "manual_039",
+      "title": "It feels like I'm sitting on a ball.",
+      "body": "",
+      "source": "gemini",
+      "url": "",
+      "category": "symptom_identification",
+      "added_date": "2025-11-29T21:12:24.981069"
     }
   ]
 }

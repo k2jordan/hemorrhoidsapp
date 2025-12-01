@@ -1,6 +1,6 @@
 """
-Automated Test Runner for Medical Chatbot
-Generates responses and runs evaluations on manual test cases
+Minimal Test Runner - Bypasses the issue
+This is a stripped-down version that should work
 """
 
 import json
@@ -16,26 +16,47 @@ print("""
 ╚═══════════════════════════════════════════════════════════╝
 """)
 
-print("Initializing test runner...")
-
+print("DEBUG: About to import patient_chatbot...")
 try:
     from patient_chatbot import load_vectorstore, PatientChatbot
-    from testing_framework import LLMJudgeEvaluator, HumanEvaluationInterface
+    print("✓ Imported patient_chatbot")
 except Exception as e:
-    print(f"\n✗ Import error: {e}")
+    print(f"✗ Failed to import patient_chatbot: {e}")
     import traceback
     traceback.print_exc()
     exit(1)
 
+print("DEBUG: About to import testing_framework...")
+try:
+    from testing_framework import LLMJudgeEvaluator, HumanEvaluationInterface
+    print("✓ Imported testing_framework")
+except Exception as e:
+    print(f"✗ Failed to import testing_framework: {e}")
+    import traceback
+    traceback.print_exc()
+    exit(1)
+
+print("DEBUG: About to load vectorstore...")
 try:
     vectorstore = load_vectorstore("./faiss_index")
-    chatbot = PatientChatbot(vectorstore, "test_patient")
+    print("✓ Loaded vectorstore")
 except Exception as e:
-    print(f"\n✗ Failed to initialize: {e}")
+    print(f"✗ Failed to load vectorstore: {e}")
     import traceback
     traceback.print_exc()
     exit(1)
 
+print("DEBUG: About to create chatbot...")
+try:
+    chatbot = PatientChatbot(vectorstore, "test_patient")
+    print("✓ Created chatbot")
+except Exception as e:
+    print(f"✗ Failed to create chatbot: {e}")
+    import traceback
+    traceback.print_exc()
+    exit(1)
+
+print("DEBUG: About to load manual test cases...")
 try:
     manual_path = Path("test_data/manual_test_cases.json")
     if manual_path.exists():
@@ -54,15 +75,19 @@ try:
             }
             for q in data['questions']
         ]
-        print(f"✓ Loaded {len(test_cases)} manual test cases\n")
+        print(f"✓ Loaded {len(test_cases)} manual test cases")
     else:
-        print(f"\n✗ Manual test cases not found at {manual_path}")
+        print(f"✗ Manual test cases not found at {manual_path}")
         exit(1)
 except Exception as e:
-    print(f"\n✗ Failed to load test cases: {e}")
+    print(f"✗ Failed to load test cases: {e}")
     import traceback
     traceback.print_exc()
     exit(1)
+
+print("\n" + "="*60)
+print("✅ ALL INITIALIZATION SUCCESSFUL!")
+print("="*60)
 
 print("\nTest Configuration:")
 print("1. Generate responses only (save for later)")
